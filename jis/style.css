@@ -1,0 +1,194 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:.1rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#30cfd0;
+
+}
+.carousel-caption{
+    position: absolute;
+    top:45%;
+    transform: translateY(-50%);
+}   
+html body{
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h3 span{
+    color:#ec008c;
+}
+.carousel-caption a{
+    background: #30cfd0;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+
+/*.header .carousel-indicators{
+    padding: 1.5px;
+    margin-bottom:30px;
+}*/
+.carousel-inner .carousel-item img{
+    height: 90vh;
+    min-height: 300px;
+    width: 100%;
+}
+.row .card-img-top{
+    width: 150px;
+    height: 150px;
+    left: 50px;
+    border-radius: 10%;
+}
+.high{
+	background:linear-gradient(to right, #45b649, #45b649);
+	color: white;
+	font-size:17px;
+	font-weight:700;
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner img:hover{
+    transform: scale(1.5);
+}
+.carousel {
+    width: 100%;
+  }
+  
+  .slide-box {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+  }
+  .second{
+      padding: 5%;
+  }
+  .third
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("src/gavel.jpg");
+    height:50vh;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ } 
+ .fourth{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("src/images.jpeg");
+    height:50vh;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ }  
+ .foot{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("src/Indian-Judiciary-System.jpg");
+    height:50vh;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ } 
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .slide-box img {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .slide-box img {
+      -ms-flex: 0 0 40%;
+      flex: 0 0 40%;
+      max-width:40%;
+    }
+  }
+  
+  @media (min-width: 992px)
+  {
+    .slide-box img {
+      -ms-flex: 0 0 35%;
+      flex: 0 0 35%;
+      max-width: 30%;
+    }
+  }
+  .register{
+    background:linear-gradient( to right,#330867,#30cfd0);
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 2px;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: black;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
